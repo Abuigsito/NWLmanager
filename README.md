@@ -23,7 +23,7 @@ Here's a look at the main interface and some of its key features.
 - **GitHub Integration**: Load and display JSON files directly from a GitHub repository.
 - **Record Management**: Add, update, and delete records within a JSON file through a simple form.
 - **Level Metadata Editing**: Modify level details like ID, name, author, verifier, and more.
-- **List Reordering**: Easily reorder records using a drag-and-drop-style interface.
+- **List Reordering**: Easily reorder levels using a interface.
 - **AREDL API Import**: Quickly populate level data by importing it from the AREDL API using a level ID.
 - **Multi-language Support**: Switch between English and Spanish.
 - **Persistent Configuration**: All settings (repository, language, etc.) are saved locally in a `config.json` file.
@@ -117,4 +117,5 @@ If you wish to build the application yourself:
 1.  Clone the repository.
 2.  Install the required packages: `pip install requests pyinstaller`
 3.  Run the script: `python NWLmanager.py`
+
 4.  To build the executable, run: `pyinstaller --onefile --windowed --name NWLManager NWLmanager.py`
