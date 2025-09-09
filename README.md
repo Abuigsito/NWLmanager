@@ -86,7 +86,7 @@ Before you can use the application, you need to configure it to point to your Gi
 
 2.  **Load Files**: Click the **"Load Files"** button. The application will connect to your configured GitHub repository and list all the `.json` files found in the specified folder.
 
-3.  **Select a File**: Click on any file from the "JSON Files" list on the left. The records from that file will appear in the table below.
+3.  **Select a File**: Click on any file from the "JSON Files" listed. The records from that file will appear in the table below.
 
 4.  **Manage Records**:
     -   **To Add**: Fill in the "User", "Link", "Percent", and "Hz" fields, then click **"Add Record"**.
@@ -119,3 +119,4 @@ If you wish to build the application yourself:
 3.  Run the script: `python NWLmanager.py`
 
 4.  To build the executable, run: `pyinstaller --onefile --windowed --name NWLManager NWLmanager.py`
+
